@@ -35,7 +35,7 @@ const chartConfig = {
 
 export default function WeightChart() {
   return (
-    <Card className="">
+    <Card className="md:max-w-[500px] md:max-h-[500px] md:min-w-[400px]">
       <CardHeader>
         <CardTitle>Line Chart</CardTitle>
         <CardDescription>January - June 2024</CardDescription>

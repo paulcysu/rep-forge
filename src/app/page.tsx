@@ -11,13 +11,9 @@ export default function Home() {
         <div className="">
           <Schedule />
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          <div className="col-span-1">
-            <MacroPieChart />
-          </div>
-          <div className="col-span-1">
-            <WeightChart />
-          </div>
+        <div className="flex justify-center gap-8 flex-wrap">
+          <MacroPieChart />
+          <WeightChart />
         </div>
       </div>
     </main>

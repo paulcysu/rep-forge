@@ -53,7 +53,7 @@ export default function MacroPieChart() {
   }, []);
 
   return (
-    <Card className="flex flex-col">
+    <Card className="md:max-w-[500px] md:max-h-[500px] h-full">
       <CardHeader className="items-center pb-0">
         <CardTitle>Pie Chart - Donut with Text</CardTitle>
         <CardDescription>January - June 2024</CardDescription>
