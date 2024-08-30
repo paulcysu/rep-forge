@@ -229,6 +229,7 @@ _pkginfo.txt
 # but keep track of directories ending in .cache
 !?*.[Cc]ache/
 
+
 # Others
 ClientBin/
 ~$*
@@ -396,3 +397,18 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Next.js
+.next/
+out/
+
+# Ignore specific files in public
+public/*.log
+public/temp/
+
+# But don't ignore these important files
+!public/robots.txt
+!public/favicon.ico
+
+# macOS system files
+.DS_Store
