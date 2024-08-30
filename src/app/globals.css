@@ -123,3 +123,9 @@
     --chart-2: 340 75% 55%;
     }
 }
+
+.VirtualList {
+  > div {
+    overflow: hidden;
+  }
+}
